@@ -1,5 +1,5 @@
 {
-  "name": "the-tinderbox/clickhouse-php-client",
+  "name": "nechehin/clickhouse-php-client",
   "description": "Clickhouse client over HTTP",
   "authors": [
     {
@@ -18,8 +18,8 @@
     }
   },
   "require": {
-    "php": "~7.1",
-    "guzzlehttp/guzzle": "~6.0"
+    "php": "^7.3",
+    "guzzlehttp/guzzle": "^7.0.1"
   },
   "bin": [
     "bin/ccat_linux",

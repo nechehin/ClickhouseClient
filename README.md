@@ -1,4 +1,4 @@
-# Clickhouse Client
+# Clickhouse Client ( fork of the-tinderbox/clickhouse-php-client )
 [![Build Status](https://travis-ci.org/the-tinderbox/ClickhouseClient.svg?branch=master&200)](https://travis-ci.org/the-tinderbox/ClickhouseClient) [![Coverage Status](https://coveralls.io/repos/github/the-tinderbox/ClickhouseClient/badge.svg?branch=master&200)](https://coveralls.io/github/the-tinderbox/ClickhouseClient?branch=master)
 
 Package was written as client for [Clickhouse](https://clickhouse.yandex/).
