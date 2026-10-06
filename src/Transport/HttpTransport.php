@@ -54,7 +54,7 @@ class HttpTransport implements TransportInterface
      * @param Client $client
      * @param array  $options
      */
-    public function __construct(Client $client = null, array $options = [])
+    public function __construct(?Client $client = null, array $options = [])
     {
         $this->setClient($client);
 
@@ -94,7 +94,7 @@ class HttpTransport implements TransportInterface
      *
      * @param Client|null $client
      */
-    protected function setClient(Client $client = null)
+    protected function setClient(?Client $client = null)
     {
         if (is_null($client)) {
             $this->httpClient = $this->createHttpClient();
